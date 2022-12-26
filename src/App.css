@@ -15,9 +15,11 @@
   display: flex;
   flex-direction: column;
   padding: 1.8rem;
-  border: 1px solid white;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
   border-radius: 5px;
-  backdrop-filter: blur(800px);
+  backdrop-filter: blur(150px);
+  box-shadow: 2px 2px 1px;
 }
 h2{
   color: white;
